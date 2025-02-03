@@ -59,28 +59,37 @@
 <section class="container-fluid bg-warning" id="product">
 <div id="product" class="container-fluid">
 <h3>Products</h3>
-<h4 id="carticon"><i class="bi bi-cart-fill"></i><p id="count">0</p></h4>
+<h4 id="carticon"><i class="bi bi-cart-fill"></i><p id="quantity">0</p></h4>
 </div>
 </section>
-<section>
-<div class="container-fluid bg-light" id="carthero">
- <div class="cartTitle">
- <h1 id="card2"></h1>
- </div>
-<div class="cartPayment">
-<h5>Total</h5>
-<p>0.00</p>
-<a href="#" class="btn btn-warning btn-outline-success">Buy now</a>
+<br>
+<div class="container-fluid">
+<div class="container-fluid h-100 purchase">
+<div class="box">
+<h6 id="cartHeading">Your cart is empty</h6>
+<div id="cartUpdate">
 </div>
-</section>
-<section>
-<div id="card"></div>
+<br>
+<strong class="total" style="display:none">Total: $510.00</strong>
+<div class="closeBuy">
+<button class="closeBtn">close</button>
+<button class="buyBtn">Buy</button>
+</div>
+</div>
+</div>
+</div>
 
+
+
+<section>
+<div id="card">
+</div>
 </section>
-<footer id="contact">
+
+<footer id="contact" class="container-fluid">
   <fieldset>
   <div class="footer">
- <h6 class="text-dark">Contact Us</h6>
+ <h6 class="cartHeading">Contact Us</h6>
 <form action="hydeetechworld02@gmail.com" method="post">
   <label for="name">Full name:</label><br>
 <input type="text" name="name" id="name" placeholder="Enter your name here" required><br><br>
@@ -96,7 +105,7 @@
 <option value="Antarctica">Antarctica</option>
 <option value="Australia">Australia</option>
 </select><br><br>
-<textarea cols="30" rows="10" name="message" id="message" placeholder="Enter your message here" required""></textarea><br>
+<textarea cols="30" rows="10" name="message" id="message" placeholder="Enter your message here"></textarea><br>
 <button class="btn" type="submit">Submit</button>
 </form>
   </div>
